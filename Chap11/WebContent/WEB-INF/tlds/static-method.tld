@@ -1,0 +1,11 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+    <description>EL의 자바 정적 메소드 사용</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>ELStaticMethod</short-name>
+    
+    <function>
+        <name>useStaticMethod</name>
+        <function-class>MethodTest.StaticMethod</function-class>
+        <function-signature>int getData(int)</function-signature>
+    </function>
+</taglib>

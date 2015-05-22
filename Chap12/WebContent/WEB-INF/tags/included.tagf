@@ -1,0 +1,7 @@
+<%@ tag pageEncoding="UTF-8" %>
+
+<html>
+<body>
+	<h4>현재 출력되는 내용은 included.tagf 파일에 포함된 내용입니다.</h4>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>파라미터 전달 HTML</title>
+	</head>
+	<body>
+		<form action="requestParam.jsp" method="post">
+			이름 : <input type="text" name="name"><br/>
+			암호 : <input type="password" name="pwd"><br/>
+			성별 : <input type="radio" name="gender" value="man">남자
+			     <input type="radio" name="gender" value="woman">여자<br/>
+			직업 : <select name="job">
+					<option>기타</option>
+					<option>무직</option>
+					<option>학생</option>
+					<option>직장인</option>
+					<option>사업자</option>													
+			     </select><br/>
+			관심분야 : <input type="checkbox" name="interest" value="it">IT
+				    <input type="checkbox" name="interest" value="sports">스포츠
+			        <input type="checkbox" name="interest" value="art">예술
+			        <input type="checkbox" name="interest" value="politics">정치
+			        <input type="checkbox" name="interest" value="economy">경제
+			        <input type="checkbox" name="interest" value="culture">문화<br/>
+			<input type= "reset" value="리셋">
+			<input type="submit" value="전송">
+		</form>
+	</body>
+</html>

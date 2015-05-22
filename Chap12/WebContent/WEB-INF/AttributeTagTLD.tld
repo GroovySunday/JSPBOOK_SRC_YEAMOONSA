@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>
+		SimpleTag Example with attribute
+	</description>
+	<tlib-version>1.0</tlib-version>
+    <short-name>SimpleTag with attribute</short-name>
+    <tag>
+        <name>attributeTag</name>
+        <tag-class>SimpleTag.AttributeTagHandler</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>msg</name>
+			<type>java.lang.String</type>
+		</attribute>
+    </tag>
+</taglib>    
